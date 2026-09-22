@@ -1,0 +1,1314 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milan Solanki | Full Stack Developer | .NET Developer</title>
+    <meta name="description" content="Milan Solanki is a Full Stack Developer with 6+ years of experience building enterprise applications, .NET solutions, workflow automation platforms, AI-driven applications, APIs, and database solutions.">
+    <meta name="keywords" content="Milan Solanki, Full Stack Developer, .NET Developer, C#, ASP.NET Core, Web Developer, Enterprise Software, SQL Server">
+    <meta name="author" content="Milan Solanki">
+
+    <!-- Open Graph / Meta -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Milan Solanki | Full Stack Developer | .NET Developer">
+    <meta property="og:description" content="6+ years of experience delivering scalable enterprise applications, .NET solutions, and modern web platforms.">
+
+    <!-- Google Fonts: Inter & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Custom Stylesheet -->
+    
+    <link href="milan.css" rel="stylesheet" />
+</head>
+<body class="bg-dark text-light antialiased">
+
+    <!-- Ambient Glow Effects -->
+    <div class="ambient-glow glow-1" aria-hidden="true"></div>
+    <div class="ambient-glow glow-2" aria-hidden="true"></div>
+
+    <!-- Header / Navigation -->
+    <header id="site-header" class="site-header">
+        <div class="container nav-wrapper">
+            <a href="#home" class="brand" aria-label="Milan Solanki - Home">
+                <span class="code-badge">&lt;/&gt;</span>
+                <span class="brand-text">Milan Solanki</span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary btn-sm nav-cta">Let's Connect</a>
+                <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <i data-lucide="menu" class="icon-menu"></i>
+                    <i data-lucide="x" class="icon-close"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+            <ul class="mobile-nav-list">
+                <li><a href="#home" class="mobile-link">Home</a></li>
+                <li><a href="#about" class="mobile-link">About</a></li>
+                <li><a href="#experience" class="mobile-link">Experience</a></li>
+                <li><a href="#skills" class="mobile-link">Skills</a></li>
+                <li><a href="#projects" class="mobile-link">Projects</a></li>
+                <li><a href="#contact" class="mobile-link">Contact</a></li>
+            </ul>
+            <div class="mobile-cta-wrapper">
+                <a href="#contact" class="btn btn-primary w-full mobile-cta">Let's Connect</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- 2. Hero Section -->
+        <section id="home" class="section hero-section">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="status-pill">
+                        <span class="pulse-dot"></span>
+                        Available for Senior Technical Roles & Consulting
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Milan Solanki</span>
+                    </h1>
+
+                    <div class="hero-subtitle">
+                        <span class="role-highlight">Full Stack Developer</span>
+                        <span class="divider">|</span>
+                        <span class="role-highlight">.NET Developer</span>
+                    </div>
+
+                    <p class="hero-description">
+                        6+ years of experience building scalable web applications, enterprise solutions, workflow automation platforms, and AI-driven digital products.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#experience" class="btn btn-primary">
+                            <span>View My Experience</span>
+                            <i data-lucide="arrow-right" class="btn-icon"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <span>Let's Connect</span>
+                            <i data-lucide="mail" class="btn-icon"></i>
+                        </a>
+                    </div>
+
+                    <!-- Subtle Contact Meta -->
+                    <div class="hero-contact-meta">
+                        <a href="tel:+919909605110" class="contact-pill">
+                            <i data-lucide="phone" class="pill-icon"></i>
+                            <span>+91-9909605110</span>
+                        </a>
+                        <a href="mailto:milansolanki3241@gmail.com" class="contact-pill">
+                            <i data-lucide="mail" class="pill-icon"></i>
+                            <span>milansolanki3241@gmail.com</span>
+                        </a>
+                        <span class="contact-pill location">
+                            <i data-lucide="map-pin" class="pill-icon"></i>
+                            <span>Gondal, Gujarat - 36311</span>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Terminal / Code Window Visual -->
+                <div class="hero-visual">
+                    <div class="code-card">
+                        <div class="code-card-header">
+                            <div class="window-controls">
+                                <span class="dot dot-red"></span>
+                                <span class="dot dot-yellow"></span>
+                                <span class="dot dot-green"></span>
+                            </div>
+                            <div class="window-tab">
+                                <i data-lucide="file-code-2" class="tab-icon"></i>
+                                <span>MilanDeveloperProfile.cs</span>
+                            </div>
+                            <div class="editor-lang">C# / .NET 8</div>
+                        </div>
+                        <div class="code-card-body">
+                            <pre><code><span class="token-keyword">namespace</span> <span class="token-namespace">MilanSolanki.Core</span>
+{
+                            <span class="token-keyword">public sealed class</span> <span class="token-class">FullStackDeveloper</span>
+    {
+                            <span class="token-keyword">public string</span> Name =&gt; <span class="token-string">"Milan Solanki"</span>;
+                            <span class="token-keyword">public int</span> ExperienceYears =&gt; <span class="token-number">6</span>;
+                            <span class="token-keyword">public string[]</span> PrimaryStack =&gt; <span class="token-keyword">new</span>[]
+        {
+                            <span class="token-string">"C#"</span>, <span class="token-string">".NET Core"</span>, <span class="token-string">"ASP.NET MVC"</span>,
+                            <span class="token-string">"JavaScript"</span>, <span class="token-string">"SQL Server"</span>, <span class="token-string">"APIs"</span>, <span class="token-string">"AI"</span>
+        };
+
+                            <span class="token-keyword">public bool</span> BuildsScalableEnterpriseApps =&gt; <span class="token-bool">true</span>;
+                            <span class="token-keyword">public bool</span> DedicatedToCodeQuality =&gt; <span class="token-bool">true</span>;
+    }
+}</code></pre>
+                        </div>
+                        <div class="code-card-footer">
+                            <div class="tech-tags-floating">
+                                <span class="code-chip">C#</span>
+                                <span class="code-chip">.NET</span>
+                                <span class="code-chip">ASP.NET Core</span>
+                                <span class="code-chip">JavaScript</span>
+                                <span class="code-chip">SQL</span>
+                                <span class="code-chip">AI</span>
+                                <span class="code-chip">APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Quick Professional Stats -->
+        <section class="section-stats" aria-label="Professional Highlights">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon-wrap">
+                            <i data-lucide="award" class="stat-icon"></i>
+                        </div>
+                        <div class="stat-number"><span class="counter" data-target="6">6</span><span class="accent-symbol">+</span></div>
+                        <div class="stat-label">Years Experience</div>
+                        <div class="stat-detail">Enterprise & Web Systems</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon-wrap">
+                            <i data-lucide="calendar" class="stat-icon"></i>
+                        </div>
+                        <div class="stat-number"><span class="counter" data-target="2019">2019</span></div>
+                        <div class="stat-label">Career Started</div>
+                        <div class="stat-detail">November 2019 Milestone</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon-wrap">
+                            <i data-lucide="layers" class="stat-icon"></i>
+                        </div>
+                        <div class="stat-number text-gradient-accent">Full Stack</div>
+                        <div class="stat-label">Development</div>
+                        <div class="stat-detail">Frontend to Backend Architecture</div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-icon-wrap">
+                            <i data-lucide="building-2" class="stat-icon"></i>
+                        </div>
+                        <div class="stat-number text-gradient-accent">Enterprise</div>
+                        <div class="stat-label">Applications</div>
+                        <div class="stat-detail">Workflow Automation & ERPs</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. About Me -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-eyebrow">Background & Story</div>
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <!-- Profile Card Side -->
+                    <div class="about-card-side">
+                        <div class="profile-card glass-card">
+                            <div class="profile-avatar-wrapper">
+                                <div class="profile-avatar">
+                                    <span class="avatar-initials">MS</span>
+                                </div>
+                                <div class="profile-badge">
+                                    <i data-lucide="check" class="check-icon"></i>
+                                </div>
+                            </div>
+                            <h3 class="profile-name">Milan Solanki</h3>
+                            <p class="profile-role">Full Stack Developer | .NET Developer</p>
+
+                            <div class="profile-meta-list">
+                                <div class="profile-meta-item">
+                                    <i data-lucide="briefcase" class="meta-icon"></i>
+                                    <span>6+ Years in Software Engineering</span>
+                                </div>
+                                <div class="profile-meta-item">
+                                    <i data-lucide="map-pin" class="meta-icon"></i>
+                                    <span>Gondal, Gujarat, India</span>
+                                </div>
+                                <div class="profile-meta-item">
+                                    <i data-lucide="cpu" class="meta-icon"></i>
+                                    <span>Microsoft Technologies & Modern Web</span>
+                                </div>
+                            </div>
+
+                            <div class="profile-actions">
+                                <a href="#experience" class="btn btn-outline btn-sm w-full">Explore Experience</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Narrative Content Side -->
+                    <div class="about-content-side">
+                        <div class="content-lead">
+                            Transforming complex business requirements into high-performing, maintainable digital software.
+                        </div>
+
+                        <p class="about-paragraph">
+                            Milan Solanki is a Full Stack Developer with nearly 6+ years of professional experience in designing, developing, and maintaining web and enterprise applications using Microsoft technologies.
+                        </p>
+
+                        <p class="about-paragraph">
+                            Since starting his career in November 2019, he has worked across the complete software development lifecycle, delivering scalable, reliable, and user-focused solutions.
+                        </p>
+
+                        <p class="about-paragraph">
+                            Throughout his career, he has collaborated with cross-functional teams, contributed to multiple projects, and continuously adapted to new technologies and business requirements.
+                        </p>
+
+                        <p class="about-paragraph">
+                            He is passionate about software development, continuous learning, and creating impactful digital products that combine functionality with a great user experience.
+                        </p>
+
+                        <div class="about-highlights-grid">
+                            <div class="highlight-chip">
+                                <i data-lucide="check-circle-2" class="chip-icon"></i>
+                                <span>Full Stack Development</span>
+                            </div>
+                            <div class="highlight-chip">
+                                <i data-lucide="check-circle-2" class="chip-icon"></i>
+                                <span>Enterprise Applications</span>
+                            </div>
+                            <div class="highlight-chip">
+                                <i data-lucide="check-circle-2" class="chip-icon"></i>
+                                <span>AI & Automation</span>
+                            </div>
+                            <div class="highlight-chip">
+                                <i data-lucide="check-circle-2" class="chip-icon"></i>
+                                <span>API Development</span>
+                            </div>
+                            <div class="highlight-chip">
+                                <i data-lucide="check-circle-2" class="chip-icon"></i>
+                                <span>Database Engineering</span>
+                            </div>
+                            <div class="highlight-chip">
+                                <i data-lucide="check-circle-2" class="chip-icon"></i>
+                                <span>Continuous Learning</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Professional Experience -->
+        <section id="experience" class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-eyebrow">Proven Career History</div>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <!-- Career Progression Visualizer -->
+                <div class="career-progression-wrapper">
+                    <div class="progression-title">Career Progression</div>
+                    <div class="progression-track">
+                        <div class="progression-step">
+                            <div class="progression-icon"><i data-lucide="monitor" class="step-i"></i></div>
+                            <div class="progression-text">Desktop Application Developer</div>
+                            <div class="progression-sub">Nov 2019</div>
+                        </div>
+                        <div class="progression-arrow"><i data-lucide="arrow-right" class="arrow-i"></i></div>
+                        <div class="progression-step">
+                            <div class="progression-icon"><i data-lucide="layers" class="step-i"></i></div>
+                            <div class="progression-text">Full Stack Developer</div>
+                            <div class="progression-sub">Core Growth</div>
+                        </div>
+                        <div class="progression-arrow"><i data-lucide="arrow-right" class="arrow-i"></i></div>
+                        <div class="progression-step active">
+                            <div class="progression-icon"><i data-lucide="sparkles" class="step-i"></i></div>
+                            <div class="progression-text">Web / Full Stack Developer</div>
+                            <div class="progression-sub">Oct 2023 - Present</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Vertical Timeline -->
+                <div class="timeline">
+                    <!-- Experience 1 (Current) -->
+                    <div class="timeline-item current-role">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot pulsing"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-badge-row">
+                                <span class="role-badge current">Current Position</span>
+                                <span class="time-range"><i data-lucide="calendar" class="meta-icon"></i> October 2023 - Present</span>
+                            </div>
+
+                            <h3 class="role-title">Web Developer / Full Stack Developer</h3>
+                            <div class="role-company">
+                                <i data-lucide="building" class="company-icon"></i>
+                                <span>Dedicated Developer at eClerx - Mumbai (Vendor Personnel)</span>
+                            </div>
+
+                            <div class="role-scope-note">
+                                Enterprise software engineering across AI-driven solutions, workflow automation platforms, and conversational systems.
+                            </div>
+
+                            <ul class="responsibilities-list">
+                                <li>Contributed to the design, development, enhancement, and maintenance of multiple enterprise-grade products and business applications.</li>
+                                <li>Worked across AI-driven solutions, workflow automation platforms, and Microsoft Teams-integrated chatbot applications.</li>
+                                <li>Developed scalable web applications and RESTful APIs using ASP.NET MVC, .NET Core, and .NET Web API.</li>
+                                <li>Implemented authentication, authorization, validation, and business logic layers.</li>
+                                <li>Built responsive and interactive interfaces using JavaScript, jQuery, AJAX, Bootstrap, HTML, and CSS.</li>
+                                <li>Worked closely with product owners, business stakeholders, and cross-functional teams.</li>
+                                <li>Developed and enhanced workflow automation modules.</li>
+                                <li>Contributed to Microsoft Teams chatbot solutions and workflow-driven conversational features.</li>
+                                <li>Designed and optimized databases using Microsoft SQL Server, MySQL, and SQL Anywhere.</li>
+                                <li>Collaborated with QA, DevOps, and business teams throughout the software development lifecycle.</li>
+                                <li>Used Git-based version control, branching strategies, code reviews, and deployment workflows.</li>
+                                <li>Followed clean architecture principles, secure coding standards, performance optimization, and maintainable code design.</li>
+                            </ul>
+
+                            <div class="role-tech-stack">
+                                <span class="tech-tag">.NET Core</span>
+                                <span class="tech-tag">ASP.NET MVC</span>
+                                <span class="tech-tag">Web API</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">jQuery</span>
+                                <span class="tech-tag">MS SQL Server</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">MS Teams Chatbots</span>
+                                <span class="tech-tag">Git</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-badge-row">
+                                <span class="role-badge">4 Years Tenure</span>
+                                <span class="time-range"><i data-lucide="calendar" class="meta-icon"></i> November 2019 - September 2023</span>
+                            </div>
+
+                            <h3 class="role-title">Full Stack Developer</h3>
+                            <div class="role-company">
+                                <i data-lucide="building" class="company-icon"></i>
+                                <span>Shree Ramdoot Gems LLP - Surat</span>
+                            </div>
+
+                            <div class="role-scope-note">
+                                Engineered desktop Diamond ERP systems and modern web-based commerce solutions with backend Windows services.
+                            </div>
+
+                            <ul class="responsibilities-list">
+                                <li>Developed and maintained Diamond ERP desktop applications supporting core business operations.</li>
+                                <li>Worked on a complete web-based diamond selling platform using ASP.NET MVC and AngularJS.</li>
+                                <li>Developed and maintained backend services using Windows Services, SQL databases, and .NET technologies.</li>
+                                <li>Collaborated directly with clients and business stakeholders.</li>
+                                <li>Analyzed business processes and delivered customized technical solutions.</li>
+                                <li>Translated business requirements into technical designs.</li>
+                                <li>Worked across desktop and web application development.</li>
+                                <li>Gained hands-on experience in application architecture, database integration, backend services, and responsive web development.</li>
+                                <li>Started as a Desktop Application Developer and progressively expanded into Full Stack Web Development.</li>
+                            </ul>
+
+                            <div class="role-tech-stack">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">ASP.NET MVC</span>
+                                <span class="tech-tag">AngularJS</span>
+                                <span class="tech-tag">Windows Services</span>
+                                <span class="tech-tag">SQL Databases</span>
+                                <span class="tech-tag">Desktop ERP</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-eyebrow">Technical Capabilities</div>
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-intro">
+                        Categorized proficiency spanning modern web interfaces, robust Microsoft backends, database engineering, and secure system architectures.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Front-End -->
+                    <div class="skill-category-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="skill-cat-icon"><i data-lucide="layout" class="cat-i"></i></div>
+                            <div>
+                                <h3 class="skill-cat-title">Front-End</h3>
+                                <span class="skill-cat-count">8 Technologies</span>
+                            </div>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip"><i data-lucide="code" class="chip-i"></i> HTML5</span>
+                            <span class="skill-chip"><i data-lucide="palette" class="chip-i"></i> CSS3</span>
+                            <span class="skill-chip"><i data-lucide="box" class="chip-i"></i> Bootstrap</span>
+                            <span class="skill-chip highlight"><i data-lucide="braces" class="chip-i"></i> JavaScript</span>
+                            <span class="skill-chip"><i data-lucide="file-code" class="chip-i"></i> jQuery</span>
+                            <span class="skill-chip"><i data-lucide="refresh-cw" class="chip-i"></i> AJAX</span>
+                            <span class="skill-chip"><i data-lucide="layers" class="chip-i"></i> AngularJS</span>
+                            <span class="skill-chip"><i data-lucide="smartphone" class="chip-i"></i> Responsive UI</span>
+                        </div>
+                    </div>
+
+                    <!-- Back-End -->
+                    <div class="skill-category-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="skill-cat-icon"><i data-lucide="server" class="cat-i"></i></div>
+                            <div>
+                                <h3 class="skill-cat-title">Back-End</h3>
+                                <span class="skill-cat-count">11 Technologies</span>
+                            </div>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip highlight"><i data-lucide="hash" class="chip-i"></i> C#</span>
+                            <span class="skill-chip highlight"><i data-lucide="cpu" class="chip-i"></i> .NET Core</span>
+                            <span class="skill-chip highlight"><i data-lucide="globe" class="chip-i"></i> ASP.NET Core</span>
+                            <span class="skill-chip"><i data-lucide="terminal" class="chip-i"></i> .NET Framework</span>
+                            <span class="skill-chip"><i data-lucide="compass" class="chip-i"></i> ASP.NET MVC</span>
+                            <span class="skill-chip"><i data-lucide="network" class="chip-i"></i> Web API</span>
+                            <span class="skill-chip"><i data-lucide="share-2" class="chip-i"></i> RESTful APIs</span>
+                            <span class="skill-chip"><i data-lucide="search" class="chip-i"></i> LINQ</span>
+                            <span class="skill-chip"><i data-lucide="database" class="chip-i"></i> Entity Framework</span>
+                            <span class="skill-chip"><i data-lucide="cloud" class="chip-i"></i> Web Services</span>
+                            <span class="skill-chip"><i data-lucide="settings" class="chip-i"></i> Windows Services</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-category-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="skill-cat-icon"><i data-lucide="database" class="cat-i"></i></div>
+                            <div>
+                                <h3 class="skill-cat-title">Databases</h3>
+                                <span class="skill-cat-count">7 Competencies</span>
+                            </div>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip highlight"><i data-lucide="hard-drive" class="chip-i"></i> MS SQL Server</span>
+                            <span class="skill-chip"><i data-lucide="database" class="chip-i"></i> MSSQL</span>
+                            <span class="skill-chip"><i data-lucide="server" class="chip-i"></i> MySQL</span>
+                            <span class="skill-chip"><i data-lucide="hard-drive" class="chip-i"></i> SQL Anywhere</span>
+                            <span class="skill-chip"><i data-lucide="git-branch" class="chip-i"></i> Database Design</span>
+                            <span class="skill-chip"><i data-lucide="zap" class="chip-i"></i> Query Optimization</span>
+                            <span class="skill-chip"><i data-lucide="file-text" class="chip-i"></i> Stored Procedures</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="skill-category-card glass-card">
+                        <div class="skill-category-header">
+                            <div class="skill-cat-icon"><i data-lucide="wrench" class="cat-i"></i></div>
+                            <div>
+                                <h3 class="skill-cat-title">Tools & Technologies</h3>
+                                <span class="skill-cat-count">6 Tools</span>
+                            </div>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip highlight"><i data-lucide="git-commit" class="chip-i"></i> Git</span>
+                            <span class="skill-chip"><i data-lucide="github" class="chip-i"></i> GitHub</span>
+                            <span class="skill-chip"><i data-lucide="terminal" class="chip-i"></i> Visual Studio</span>
+                            <span class="skill-chip"><i data-lucide="send" class="chip-i"></i> Postman</span>
+                            <span class="skill-chip"><i data-lucide="file-json" class="chip-i"></i> JSON</span>
+                            <span class="skill-chip"><i data-lucide="file-code-2" class="chip-i"></i> XML</span>
+                        </div>
+                    </div>
+
+                    <!-- Security & Engineering -->
+                    <div class="skill-category-card glass-card skill-col-span">
+                        <div class="skill-category-header">
+                            <div class="skill-cat-icon"><i data-lucide="shield-check" class="cat-i"></i></div>
+                            <div>
+                                <h3 class="skill-cat-title">Security & Engineering</h3>
+                                <span class="skill-cat-count">7 Best Practices</span>
+                            </div>
+                        </div>
+                        <div class="skill-chips">
+                            <span class="skill-chip"><i data-lucide="key" class="chip-i"></i> Authentication</span>
+                            <span class="skill-chip"><i data-lucide="lock" class="chip-i"></i> Authorization</span>
+                            <span class="skill-chip"><i data-lucide="check-square" class="chip-i"></i> Data Validation</span>
+                            <span class="skill-chip highlight"><i data-lucide="shield" class="chip-i"></i> Secure API Development</span>
+                            <span class="skill-chip"><i data-lucide="file-lock-2" class="chip-i"></i> Encryption</span>
+                            <span class="skill-chip"><i data-lucide="alert-circle" class="chip-i"></i> Exception Handling</span>
+                            <span class="skill-chip highlight"><i data-lucide="gauge" class="chip-i"></i> Performance Optimization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7. What I Build / Expertise -->
+        <section class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-eyebrow">Core Domains</div>
+                    <h2 class="section-title">What I Build</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-intro">
+                        Converting enterprise challenges into stable, resilient, and business-focused software solutions.
+                    </p>
+                </div>
+
+                <div class="expertise-grid">
+                    <!-- Card 1 -->
+                    <div class="expertise-card glass-card">
+                        <div class="expertise-icon-wrap">
+                            <i data-lucide="building-2" class="exp-i"></i>
+                        </div>
+                        <h3 class="expertise-card-title">Enterprise Applications</h3>
+                        <p class="expertise-card-desc">
+                            Scalable business applications designed around real-world enterprise workflows.
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="expertise-card glass-card">
+                        <div class="expertise-icon-wrap">
+                            <i data-lucide="bot" class="exp-i"></i>
+                        </div>
+                        <h3 class="expertise-card-title">AI & Automation</h3>
+                        <p class="expertise-card-desc">
+                            AI-driven solutions and workflow automation platforms that reduce manual effort.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="expertise-card glass-card">
+                        <div class="expertise-icon-wrap">
+                            <i data-lucide="globe-2" class="exp-i"></i>
+                        </div>
+                        <h3 class="expertise-card-title">Web Applications</h3>
+                        <p class="expertise-card-desc">
+                            Responsive and user-focused web applications using modern Microsoft technologies.
+                        </p>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="expertise-card glass-card">
+                        <div class="expertise-icon-wrap">
+                            <i data-lucide="network" class="exp-i"></i>
+                        </div>
+                        <h3 class="expertise-card-title">REST APIs</h3>
+                        <p class="expertise-card-desc">
+                            Secure and scalable RESTful APIs with structured business logic and integrations.
+                        </p>
+                    </div>
+
+                    <!-- Card 5 -->
+                    <div class="expertise-card glass-card">
+                        <div class="expertise-icon-wrap">
+                            <i data-lucide="messages-square" class="exp-i"></i>
+                        </div>
+                        <h3 class="expertise-card-title">Microsoft Teams Solutions</h3>
+                        <p class="expertise-card-desc">
+                            Teams-integrated chatbot and conversational workflow solutions.
+                        </p>
+                    </div>
+
+                    <!-- Card 6 -->
+                    <div class="expertise-card glass-card">
+                        <div class="expertise-icon-wrap">
+                            <i data-lucide="database" class="exp-i"></i>
+                        </div>
+                        <h3 class="expertise-card-title">Database Solutions</h3>
+                        <p class="expertise-card-desc">
+                            Reliable database design, optimization, stored procedures, and performance-focused data solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 8. Projects / Work Showcase -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-eyebrow">Documented Solutions</div>
+                    <h2 class="section-title">Selected Work</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-intro">
+                        Enterprise systems, automation platforms, and business-critical software engineered throughout professional practice.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card glass-card" data-project-id="ai-enterprise">
+                        <div class="project-card-header">
+                            <div class="project-type-tag">Enterprise / AI</div>
+                            <div class="project-icon-badge">
+                                <i data-lucide="sparkles" class="p-icon"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">AI-Driven Enterprise Solutions</h3>
+                        <p class="project-desc">
+                            AI-driven business applications and enterprise solutions built to automate intelligent workflows and enhance operational efficiency.
+                        </p>
+                        <div class="project-tags">
+                            <span class="p-tag">.NET Core</span>
+                            <span class="p-tag">APIs</span>
+                            <span class="p-tag">AI</span>
+                            <span class="p-tag">Enterprise</span>
+                        </div>
+                        <button class="btn btn-outline btn-sm w-full btn-project-detail" data-target="modal-ai-enterprise">
+                            <span>View Details</span>
+                            <i data-lucide="arrow-up-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card glass-card" data-project-id="workflow-automation">
+                        <div class="project-card-header">
+                            <div class="project-type-tag">Process Automation</div>
+                            <div class="project-icon-badge">
+                                <i data-lucide="workflow" class="p-icon"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Workflow Automation Platform</h3>
+                        <p class="project-desc">
+                            Workflow automation solutions designed to streamline business processes, reduce manual effort, and improve process visibility.
+                        </p>
+                        <div class="project-tags">
+                            <span class="p-tag">.NET</span>
+                            <span class="p-tag">JavaScript</span>
+                            <span class="p-tag">Automation</span>
+                            <span class="p-tag">APIs</span>
+                        </div>
+                        <button class="btn btn-outline btn-sm w-full btn-project-detail" data-target="modal-workflow-automation">
+                            <span>View Details</span>
+                            <i data-lucide="arrow-up-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card glass-card" data-project-id="teams-chatbot">
+                        <div class="project-card-header">
+                            <div class="project-type-tag">Conversational Ops</div>
+                            <div class="project-icon-badge">
+                                <i data-lucide="bot" class="p-icon"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Microsoft Teams Chatbot Solutions</h3>
+                        <p class="project-desc">
+                            Workflow-driven conversational applications integrated with Microsoft Teams for internal business operations.
+                        </p>
+                        <div class="project-tags">
+                            <span class="p-tag">Microsoft Teams</span>
+                            <span class="p-tag">.NET</span>
+                            <span class="p-tag">APIs</span>
+                            <span class="p-tag">Chatbot</span>
+                        </div>
+                        <button class="btn btn-outline btn-sm w-full btn-project-detail" data-target="modal-teams-chatbot">
+                            <span>View Details</span>
+                            <i data-lucide="arrow-up-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card glass-card" data-project-id="diamond-erp">
+                        <div class="project-card-header">
+                            <div class="project-type-tag">Industry ERP</div>
+                            <div class="project-icon-badge">
+                                <i data-lucide="gem" class="p-icon"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Diamond ERP</h3>
+                        <p class="project-desc">
+                            Desktop ERP applications supporting core business operations, inventory, and transactions in the diamond industry.
+                        </p>
+                        <div class="project-tags">
+                            <span class="p-tag">C#</span>
+                            <span class="p-tag">.NET</span>
+                            <span class="p-tag">SQL</span>
+                            <span class="p-tag">Desktop</span>
+                        </div>
+                        <button class="btn btn-outline btn-sm w-full btn-project-detail" data-target="modal-diamond-erp">
+                            <span>View Details</span>
+                            <i data-lucide="arrow-up-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- Project 5 -->
+                    <div class="project-card glass-card" data-project-id="diamond-selling">
+                        <div class="project-card-header">
+                            <div class="project-type-tag">Web Commerce</div>
+                            <div class="project-icon-badge">
+                                <i data-lucide="shopping-bag" class="p-icon"></i>
+                            </div>
+                        </div>
+                        <h3 class="project-title">Diamond Selling Platform</h3>
+                        <p class="project-desc">
+                            Web-based diamond selling platform developed using ASP.NET MVC and AngularJS with reliable backend database integration.
+                        </p>
+                        <div class="project-tags">
+                            <span class="p-tag">ASP.NET MVC</span>
+                            <span class="p-tag">AngularJS</span>
+                            <span class="p-tag">SQL</span>
+                        </div>
+                        <button class="btn btn-outline btn-sm w-full btn-project-detail" data-target="modal-diamond-selling">
+                            <span>View Details</span>
+                            <i data-lucide="arrow-up-right" class="btn-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9. Development Philosophy -->
+        <section class="section bg-surface">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-eyebrow">Engineering Mindset</div>
+                    <h2 class="section-title">How I Approach Development</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-intro">
+                        A disciplined engineering approach built on four fundamental software principles.
+                    </p>
+                </div>
+
+                <div class="philosophy-grid">
+                    <!-- Principle 1 -->
+                    <div class="philosophy-card glass-card">
+                        <div class="philosophy-num">01</div>
+                        <h3 class="philosophy-title">Clean & Maintainable</h3>
+                        <p class="philosophy-desc">
+                            Writing code that remains understandable and maintainable over the long term. Clear separation of concerns, structured layers, and intuitive naming.
+                        </p>
+                    </div>
+
+                    <!-- Principle 2 -->
+                    <div class="philosophy-card glass-card">
+                        <div class="philosophy-num">02</div>
+                        <h3 class="philosophy-title">Secure by Design</h3>
+                        <p class="philosophy-desc">
+                            Following authentication, authorization, validation, encryption, and secure API practices to safeguard business integrity at every layer.
+                        </p>
+                    </div>
+
+                    <!-- Principle 3 -->
+                    <div class="philosophy-card glass-card">
+                        <div class="philosophy-num">03</div>
+                        <h3 class="philosophy-title">Performance Focused</h3>
+                        <p class="philosophy-desc">
+                            Optimizing applications and databases for reliable performance through query tuning, caching strategies, and streamlined payload delivery.
+                        </p>
+                    </div>
+
+                    <!-- Principle 4 -->
+                    <div class="philosophy-card glass-card">
+                        <div class="philosophy-num">04</div>
+                        <h3 class="philosophy-title">Business Driven</h3>
+                        <p class="philosophy-desc">
+                            Understanding business requirements deeply before translating them into technical solutions, ensuring technology serves tangible operational goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 10. Creative Side: Beyond Code -->
+        <section class="section beyond-code-section">
+            <div class="container">
+                <div class="beyond-code-card">
+                    <div class="beyond-code-glow" aria-hidden="true"></div>
+                    <div class="beyond-icon-wrap">
+                        <i data-lucide="feather" class="feather-i"></i>
+                    </div>
+                    <div class="section-eyebrow">Creative Perspective</div>
+                    <h2 class="beyond-title">Beyond Code</h2>
+                    <p class="beyond-text">
+                        "Outside technology, I enjoy writing poetry — a creative pursuit that helps me think differently, stay balanced, and bring fresh perspectives to problem-solving and innovation."
+                    </p>
+                    <div class="beyond-author">— Milan Solanki</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-box glass-card">
+                    <div class="section-header text-center">
+                        <div class="section-eyebrow">Get In Touch</div>
+                        <h2 class="section-title">Let's Build Something Great</h2>
+                        <div class="section-divider center"></div>
+                        <p class="contact-lead">
+                            Have a project, idea, or technical challenge? Let's connect and explore how technology can turn it into a practical solution.
+                        </p>
+                    </div>
+
+                    <div class="contact-details-grid">
+                        <a href="mailto:milansolanki3241@gmail.com" class="contact-method-card">
+                            <div class="contact-icon-box">
+                                <i data-lucide="mail" class="c-icon"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">milansolanki3241@gmail.com</span>
+                            </div>
+                        </a>
+
+                        <a href="tel:+919909605110" class="contact-method-card">
+                            <div class="contact-icon-box">
+                                <i data-lucide="phone" class="c-icon"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Phone</span>
+                                <span class="contact-value">+91-9909605110</span>
+                            </div>
+                        </a>
+
+                        <div class="contact-method-card">
+                            <div class="contact-icon-box">
+                                <i data-lucide="map-pin" class="c-icon"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-label">Location</span>
+                                <span class="contact-value">Gondal, Gujarat - 36311</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-actions">
+                        <a href="mailto:milansolanki3241@gmail.com" class="btn btn-primary btn-lg">
+                            <i data-lucide="send" class="btn-icon"></i>
+                            <span>Email Me</span>
+                        </a>
+                        <button id="btn-back-to-top" class="btn btn-outline btn-lg" aria-label="Back to top of page">
+                            <i data-lucide="arrow-up" class="btn-icon"></i>
+                            <span>Back to Top</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 12. Footer -->
+    <footer class="site-footer">
+        <div class="container footer-container">
+            <div class="footer-brand-col">
+                <div class="footer-brand">
+                    <span class="code-badge">&lt;/&gt;</span>
+                    <span class="brand-text">Milan Solanki</span>
+                </div>
+                <p class="footer-role">Full Stack Developer</p>
+                <p class="footer-tagline">"Building scalable applications, automation solutions, and digital experiences."</p>
+            </div>
+
+            <div class="footer-nav-col">
+                <div class="footer-heading">Quick Navigation</div>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 Milan Solanki. All rights reserved.</p>
+                <p class="footer-aspnet-ready">Built with Semantic HTML5, CSS3 & Vanilla JavaScript &bull</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Detail Modals -->
+    <div id="project-modal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-dialog">
+            <div class="modal-header">
+                <div class="modal-title-group">
+                    <span id="modal-category" class="modal-category">Enterprise / AI</span>
+                    <h3 id="modal-title" class="modal-title">Project Title</h3>
+                </div>
+                <button id="modal-close" class="modal-close-btn" aria-label="Close dialog">
+                    <i data-lucide="x" class="close-i"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="modal-desc" class="modal-desc"></p>
+                <div class="modal-section-title">Technical Highlights & Stack</div>
+                <div id="modal-tags" class="modal-tags"></div>
+                <div class="modal-section-title">Key Architectural Contributions</div>
+                <ul id="modal-highlights" class="modal-highlights"></ul>
+            </div>
+            <div class="modal-footer">
+                <button id="modal-close-action" class="btn btn-outline btn-sm">Close Window</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Scroll To Top -->
+    <button id="floating-top-btn" class="floating-top-btn" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <!-- Custom Scripts -->
+    <script src="js/site.js"></script>
+    <script>
+        // Initialize Lucide Icons
+        if (window.lucide) {
+          lucide.createIcons();
+        }
+
+                document.addEventListener('DOMContentLoaded', () => {
+          initStickyHeader();
+          initMobileNav();
+          initScrollSpy();
+          initStatsCounter();
+          initProjectModals();
+          initScrollToTop();
+        });
+
+        /* --------------------------------------------------
+           1. Sticky Header with Scroll Effect
+           -------------------------------------------------- */
+        function initStickyHeader() {
+          const header = document.getElementById('site-header');
+          if (!header) return;
+
+          const handleScroll = () => {
+            if (window.scrollY > 30) {
+              header.classList.add('scrolled');
+            } else {
+              header.classList.remove('scrolled');
+            }
+          };
+
+          window.addEventListener('scroll', handleScroll, { passive: true });
+          handleScroll();
+        }
+
+        /* --------------------------------------------------
+           2. Mobile Navigation Toggle & Smooth Scrolling
+           -------------------------------------------------- */
+        function initMobileNav() {
+          const toggleBtn = document.getElementById('mobile-toggle');
+          const mobileMenu = document.getElementById('mobile-menu');
+          const mobileLinks = document.querySelectorAll('.mobile-link, .mobile-cta');
+
+          if (!toggleBtn || !mobileMenu) return;
+
+          const toggleMenu = (open) => {
+            const isOpen = open !== undefined ? open : !mobileMenu.classList.contains('open');
+            mobileMenu.classList.toggle('open', isOpen);
+            toggleBtn.classList.toggle('active', isOpen);
+            toggleBtn.setAttribute('aria-expanded', isOpen);
+            mobileMenu.setAttribute('aria-hidden', !isOpen);
+          };
+
+          toggleBtn.addEventListener('click', () => toggleMenu());
+
+          mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+              toggleMenu(false);
+            });
+          });
+
+          // Close when clicking outside menu
+          document.addEventListener('click', (e) => {
+            if (mobileMenu.classList.contains('open') &&
+                !mobileMenu.contains(e.target) &&
+                !toggleBtn.contains(e.target)) {
+              toggleMenu(false);
+            }
+          });
+        }
+
+        /* --------------------------------------------------
+           3. Active Navigation Item Scroll Spy
+           -------------------------------------------------- */
+        function initScrollSpy() {
+          const sections = document.querySelectorAll('section[id]');
+          const navLinks = document.querySelectorAll('.nav-link');
+          const mobileLinks = document.querySelectorAll('.mobile-link');
+
+          if (!sections.length || !navLinks.length) return;
+
+          const updateActiveLink = () => {
+            const scrollPosition = window.scrollY + 120;
+
+            sections.forEach(section => {
+              const sectionTop = section.offsetTop;
+              const sectionHeight = section.offsetHeight;
+              const sectionId = section.getAttribute('id');
+
+              if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
+                navLinks.forEach(link => {
+                  link.classList.toggle('active', link.getAttribute('href') === `#${sectionId}`);
+                });
+                mobileLinks.forEach(link => {
+                  link.classList.toggle('active', link.getAttribute('href') === `#${sectionId}`);
+                });
+              }
+            });
+          };
+
+          window.addEventListener('scroll', updateActiveLink, { passive: true });
+          updateActiveLink();
+        }
+
+        /* --------------------------------------------------
+           4. Animated Statistics Counter (Viewport Triggered)
+           -------------------------------------------------- */
+        function initStatsCounter() {
+          const counters = document.querySelectorAll('.counter');
+          if (!counters.length) return;
+
+          let hasAnimated = false;
+
+          const animateCounters = () => {
+            counters.forEach(counter => {
+              const target = parseInt(counter.getAttribute('data-target'), 10);
+              if (isNaN(target)) return;
+
+              const duration = 1600; // ms
+              const startTime = performance.now();
+              const startVal = target > 1000 ? target - 50 : 0;
+
+              const step = (currentTime) => {
+                const progress = Math.min((currentTime - startTime) / duration, 1);
+                // Easing: easeOutQuad
+                const easeVal = 1 - (1 - progress) * (1 - progress);
+                const currentCount = Math.floor(startVal + (target - startVal) * easeVal);
+                counter.textContent = currentCount.toLocaleString();
+
+                if (progress < 1) {
+                  requestAnimationFrame(step);
+                } else {
+                  counter.textContent = target.toLocaleString();
+                }
+              };
+
+              requestAnimationFrame(step);
+            });
+          };
+
+          const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting && !hasAnimated) {
+                hasAnimated = true;
+                animateCounters();
+                observer.disconnect();
+              }
+            });
+          }, { threshold: 0.3 });
+
+          const statsSection = document.querySelector('.section-stats');
+          if (statsSection) {
+            observer.observe(statsSection);
+          }
+        }
+
+        /* --------------------------------------------------
+           5. Interactive Project Details Modal
+           -------------------------------------------------- */
+        const PROJECT_DATA = {
+          'modal-ai-enterprise': {
+            title: 'AI-Driven Enterprise Solutions',
+            category: 'Enterprise / AI Integration',
+            desc: 'Contributed to the design, architecture, and maintenance of scalable enterprise-grade products integrating modern AI capabilities into everyday business processes. Focused on structured business logic, data reliability, and seamless enterprise tool adoption.',
+            tags: ['.NET Core', 'ASP.NET MVC', 'Web API', 'AI Solutions', 'RESTful Services', 'SQL Server'],
+            highlights: [
+              'Implemented robust RESTful APIs and business logic layers with ASP.NET Core.',
+              'Constructed enterprise workflow hooks to automate conversational and data-driven tasks.',
+              'Adhered to clean architecture principles, strict validation, and high performance optimization.',
+              'Coordinated across cross-functional teams, QA, and business stakeholders during the full SDLC.'
+            ]
+          },
+          'modal-workflow-automation': {
+            title: 'Workflow Automation Platform',
+            category: 'Process Automation & Enterprise Modules',
+            desc: 'Engineered specialized workflow automation modules to eliminate repetitive administrative processes, enforce rigorous business rules, and provide actionable visibility into mission-critical pipelines.',
+            tags: ['.NET Core', 'JavaScript', 'jQuery', 'AJAX', 'Automation Modules', 'MSSQL'],
+            highlights: [
+              'Developed and enhanced workflow automation components to streamline multi-stage processes.',
+              'Built reactive, user-friendly frontend interfaces using JavaScript, AJAX, and Bootstrap.',
+              'Engineered backend services and database routines optimized for continuous background processing.',
+              'Utilized Git-based branching strategies, automated deployments, and regular code reviews.'
+            ]
+          },
+          'modal-teams-chatbot': {
+            title: 'Microsoft Teams Chatbot Solutions',
+            category: 'Conversational Workflow Operations',
+            desc: 'Contributed to conversational workflow solutions directly integrated within Microsoft Teams, enabling enterprise personnel to interact with backend services and execute operations natively via conversational commands.',
+            tags: ['Microsoft Teams', '.NET Core', 'Web API', 'Chatbot Architectures', 'REST APIs'],
+            highlights: [
+              'Implemented conversational handling layers connected to core enterprise business APIs.',
+              'Integrated security, authentication, and role-based authorization for conversational actions.',
+              'Enabled automated alerts, team notifications, and interactive adaptive cards within Teams.',
+              'Collaborated closely with product owners to ensure low latency and natural enterprise workflows.'
+            ]
+          },
+          'modal-diamond-erp': {
+            title: 'Diamond ERP Desktop Solution',
+            category: 'Core Industry Desktop Enterprise ERP',
+            desc: 'Engineered and maintained desktop ERP software powering mission-critical operations, inventory tracking, valuation, and transaction handling within the diamond manufacturing and trading sector.',
+            tags: ['C#', '.NET Framework', 'Windows Services', 'SQL Server', 'Desktop ERP'],
+            highlights: [
+              'Developed and optimized core ERP business logic and high-throughput data processing screens.',
+              'Engineered background Windows Services for automated synchronization and scheduled jobs.',
+              'Designed and tuned complex stored procedures, indices, and queries across relational databases.',
+              'Delivered customized solutions directly based on stakeholder workflow and business analysis.'
+            ]
+          },
+          'modal-diamond-selling': {
+            title: 'Diamond Selling Platform',
+            category: 'Web-Based Commerce Platform',
+            desc: 'Developed a responsive diamond selling web application featuring interactive cataloging, inventory exploration, order processing, and customer accounts, supported by resilient backend services.',
+            tags: ['ASP.NET MVC', 'AngularJS', 'JavaScript', 'SQL Databases', 'REST APIs'],
+            highlights: [
+              'Built single-page interactive catalog workflows using AngularJS and responsive CSS.',
+              'Created backend MVC controllers, database access layers, and data validation routines.',
+              'Connected web frontends with backend diamond inventory tracking and pricing databases.',
+              'Ensured cross-browser consistency, data accuracy, and reliable transaction records.'
+            ]
+          }
+        };
+
+        function initProjectModals() {
+          const modalBackdrop = document.getElementById('project-modal');
+          const closeBtn = document.getElementById('modal-close');
+          const closeActionBtn = document.getElementById('modal-close-action');
+          const detailButtons = document.querySelectorAll('.btn-project-detail');
+
+          if (!modalBackdrop) return;
+
+          const modalTitle = document.getElementById('modal-title');
+          const modalCategory = document.getElementById('modal-category');
+          const modalDesc = document.getElementById('modal-desc');
+          const modalTags = document.getElementById('modal-tags');
+          const modalHighlights = document.getElementById('modal-highlights');
+
+          const openModal = (targetKey) => {
+            const data = PROJECT_DATA[targetKey];
+            if (!data) return;
+
+            modalTitle.textContent = data.title;
+            modalCategory.textContent = data.category;
+            modalDesc.textContent = data.desc;
+
+            // Tags
+            modalTags.innerHTML = '';
+            data.tags.forEach(tag => {
+              const span = document.createElement('span');
+              span.className = 'tech-tag';
+              span.textContent = tag;
+              modalTags.appendChild(span);
+            });
+
+            // Highlights
+            modalHighlights.innerHTML = '';
+            data.highlights.forEach(item => {
+              const li = document.createElement('li');
+              li.textContent = item;
+              modalHighlights.appendChild(li);
+            });
+
+            modalBackdrop.classList.add('open');
+            document.body.style.overflow = 'hidden';
+
+            if (window.lucide) {
+              lucide.createIcons();
+            }
+          };
+
+          const closeModal = () => {
+            modalBackdrop.classList.remove('open');
+            document.body.style.overflow = '';
+          };
+
+          detailButtons.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+              e.preventDefault();
+              const target = btn.getAttribute('data-target');
+              openModal(target);
+            });
+          });
+
+          if (closeBtn) closeBtn.addEventListener('click', closeModal);
+          if (closeActionBtn) closeActionBtn.addEventListener('click', closeModal);
+
+          modalBackdrop.addEventListener('click', (e) => {
+            if (e.target === modalBackdrop) {
+              closeModal();
+            }
+          });
+
+          document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modalBackdrop.classList.contains('open')) {
+              closeModal();
+            }
+          });
+        }
+
+        /* --------------------------------------------------
+           6. Scroll To Top Handlers
+           -------------------------------------------------- */
+        function initScrollToTop() {
+          const backToTopBtn = document.getElementById('btn-back-to-top');
+          const floatingTopBtn = document.getElementById('floating-top-btn');
+
+          const scrollToTop = () => {
+            window.scrollTo({
+              top: 0,
+              behavior: 'smooth'
+            });
+          };
+
+          if (backToTopBtn) {
+            backToTopBtn.addEventListener('click', scrollToTop);
+          }
+
+          if (floatingTopBtn) {
+            floatingTopBtn.addEventListener('click', scrollToTop);
+
+            window.addEventListener('scroll', () => {
+              if (window.scrollY > 400) {
+                floatingTopBtn.classList.add('visible');
+              } else {
+                floatingTopBtn.classList.remove('visible');
+              }
+            }, { passive: true });
+          }
+        }
+    </script>
+</body>
+</html>
